@@ -23,6 +23,10 @@ body{
     color: var(--text-color-primary);
     background-color: var(--bg-color);
 }
+
+main{
+    margin-top: 40px;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -34,16 +38,12 @@ h1, h2, h3{
     font: inherit;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
 max-width: 1280px;
 padding-inline: 32px;
 margin-inline: auto;
-}
-
-.grid{
-display: grid;
-}
-
-.grid-flow-column{
-grid-auto-flow: column;
 }
