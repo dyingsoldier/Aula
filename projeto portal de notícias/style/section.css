@@ -1,5 +1,5 @@
 section header{
-    border-top: 1px solid var(--stroke-color);
+    border-top: 1px solid var(--brand-color-dark);
     padding-block: 12px 24px;
     font: var(--text-span);
 
@@ -9,13 +9,13 @@ section header{
         gap: 8px;
 
         span{
-            background-image: url(../assets/icons/ArrowRight.svg);
+            background-image: url(../assets/icons/ArrowRight\ sem\ hover.svg);
             height: 16px;
             width: 16px;
         }
 
         &:hover span{
-            background-image: url(../assets/icons/ArrowRight-hover.svg);
+            background-image: url(../assets/icons/ArrowRight.svg);
         }
     }
 }
