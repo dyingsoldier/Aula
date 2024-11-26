@@ -25,8 +25,10 @@ font: var(--h1);
 
 .text-lg{
 font: var(--h3);
+color: var(--text-color-primary);
 }
 
 .text{
     font: var(--text);
+    color: var(--text-color-secondary);
     }
